@@ -10,8 +10,8 @@ import {
 } from 'firebase/firestore';
 import { useEffect, useRef, useState } from 'react';
 import React from 'react';
-import Edit from './image/delete.png';
-import Delete from './image/edit.png';
+import Edit from '../edit.png';
+import Delete from '../logo.svg';
 function MainPage() {
   const [detail, setDetail] = useState([]);
   const userData = async () => {
