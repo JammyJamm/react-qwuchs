@@ -1,1 +1,33 @@
-<div id="root"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>React App</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Data Table Starts -->
+
+    <link rel="stylesheet" href="./plugin/datatable.css" />
+    <script type="text/javascript" src="./plugin/jquery.js"></script>
+    <script type="text/javascript" src="./plugin/jquerydataTables.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      $(document).ready(function() {
+        setTimeout(myFunction, 5000);
+      });
+      // Need to work on function call, After table got loaded
+      function myFunction() {
+        $("#CricketData").DataTable();
+      }
+    </script>
+  </body>
+</html>
