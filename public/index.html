@@ -15,18 +15,23 @@
     <!-- Data Table Starts -->
 
     <link rel="stylesheet" href="./plugin/datatable.css" />
-    <script type="text/javascript" src="./plugin/jquery.js"></script>
-    <script type="text/javascript" src="./plugin/jquerydataTables.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.  
+min.js"
+    >
+      <script type="text/javascript" src="./plugin/jquerydataTables.js">
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         setTimeout(myFunction, 5000);
       });
       // Need to work on function call, After table got loaded
       function myFunction() {
-        $("#CricketData").DataTable();
+        $('#CricketData').DataTable();
       }
     </script>
   </body>
