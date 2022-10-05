@@ -982,7 +982,7 @@ table.dataTable tbody td {
   }
   .ui-mainpage {
     width: 500px;
-    height: 300px;
+    height: auto;
     overflow-y: auto;
     overflow-x: hidden;
   }
