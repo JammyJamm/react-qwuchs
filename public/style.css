@@ -980,12 +980,12 @@ table.dataTable tbody td {
   .ui-update-form .card {
     margin: 0px;
   }
-  .ui-mainpage {
+  /* .ui-mainpage {
     width: 500px;
     height: auto;
     overflow-y: auto;
     overflow-x: hidden;
-  }
+  } */
   .ui-app-layout,
   .ui-data-layout {
     width: 100%;
