@@ -971,3 +971,23 @@ table.dataTable tbody th,
 table.dataTable tbody td {
   padding: 12px 10px;
 }
+
+/* Mobile device resolution  */
+@media screen and (max-width: 600px) {
+  .col-6 {
+    width: 100%;
+  }
+  .ui-update-form .card {
+    margin: 0px;
+  }
+  .ui-mainpage {
+    width: 500px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .ui-app-layout,
+  .ui-data-layout {
+    width: 100%;
+  }
+}
