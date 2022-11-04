@@ -41,7 +41,9 @@ min.js"
       });
       // Need to work on function call, After table got loaded
       function myFunction() {
-        $('#CricketData').DataTable();
+        $("#CricketData").DataTable({
+          columnDefs: [{ targets: [1, 2, 4, 5, 6], searchable: false }],
+        });
       }
     </script>
   </body>
